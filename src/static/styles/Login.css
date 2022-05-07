@@ -1,0 +1,128 @@
+#login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 660px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  font-family: sans-serif;
+}
+#login_contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  position: relative;
+  top: 15px;
+  width: 57%;
+  height: 419px;
+  margin-bottom: 90px;
+}
+#img_login {
+  width: 185px;
+}
+#login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: -18px 0px -4px 0px;
+}
+.inputs_login {
+  margin: 6px;
+  width: 119%;
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 11px 22px 10px 6px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+}
+.start_section_button {
+  width: 127%;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #b2dffc;
+  color: #ffffff;
+  padding: 5px;
+}
+.start_section_button_actived {
+  width: 127%;
+  margin: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 5px;
+  animation: .5s;
+}
+a {
+  text-decoration: none;
+}
+#start_section {
+  padding: 0px 0px 0px 33%;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#start_with_facebbok{
+  color: #1a1f68;
+  font-family: -apple-system, sans-serif;
+  font-weight: 500;
+}
+#forget_password{
+  position: relative;
+  top: 22px;
+  font-size: 15px;
+}
+#login_registrate{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  top: -70px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  width: 57%;
+  height: 60px;
+}
+#login_content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0% 10% 0% 20%;
+}
+#login_registrate > a > span{
+  display: flex;
+  text-align: center;
+  padding-left: 5px;
+  color: #0095f6;
+  font-size: 18px;
+}
+#login_registrate > p {
+  font-size: 16px;
+}
+#footer_login{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+}
+#footer_login > p{
+   position: relative;
+   top: -10px;
+   font-size: 15px;
+   font-family: sans-serif;
+}
+.app_download{
+  width: 150px;
+}
+#button_login{
+  padding-right: 29%;
+}

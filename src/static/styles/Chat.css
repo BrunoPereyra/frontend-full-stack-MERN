@@ -1,0 +1,25 @@
+#chat_main {
+  display: flex;
+  margin-left: 12%;
+  margin-top: 15%;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+#chat{
+  display: flex;
+  position: relative;
+  top: 540px;
+  left: 190px;
+}
+#writing_inChat > form {
+  display: flex;
+  align-items: center;
+}
+#button_search_msj {
+  width: 60px;
+  background-color: aqua;
+  height: 17px;
+  border: 1px solid black;
+  margin-left: 9px;
+}
